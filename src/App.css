@@ -1,32 +1,49 @@
-li{
-    text-decoration:bold;
+.App {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
   }
-#navbar{
+  input{
+    width:70%;
+    height:50px;
+  }
+  *{
+    background-color: aqua;
+  }
+  #under div{
+    width:70%;
+    height:50px;
+    border: 1px dotted black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:x-large;
+    color: blueviolet;
+  }
+  #under div:hover{
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    transform: translate3d(0,-2px,0);
+  }
+  button{
+    width:28%;
+    height:49px;
+    padding: 13px;
+  }
+  
+  .items {
+    width: 100%;
     display: flex;
-    margin:3%;
-    background-color: black;
-}
-#navbar div{
-    padding:2%;
-    cursor: pointer;
-    color: aliceblue;
-}
-#last{
-    margin-left: 35%;
-}
-.logo{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-#middle{
-    display: flex;
-    margin-left: 20%;
-}
-#middle div{
-    margin:2%;
-    margin-left: 10%;
-}
-button{
-    border-radius: 10px;
-    background-color:darkturquoise;
-    height:120%;
-}
+    justify-content: space-between;
+  }
+  
+  .circlularButton {
+    background: transparent;
+    border: none;
+    background: coral;
+    border-radius: 50%;
+  }
+  #main{
+    border: 2px solid red;
+    width: 500px;
+    background-color: blanchedalmond;
+  }
+  
